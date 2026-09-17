@@ -1,0 +1,105 @@
+import type { Review } from './types'
+
+export const review: Review = {
+  slug: 'bw-fiberglass',
+  passphrase: 'BWFREVIEW2026',
+  title: 'B&W Fiberglass ICHRA Quote Review',
+  kicker: 'Confidential Review',
+  clientName: 'B&W Fiberglass',
+  preparedFor: 'Prepared for leadership of B&W Fiberglass',
+  effectiveDateLabel: 'Effective 10/1/2026',
+  enrolled: 57,
+  census: [
+    { code: 'NC', lives: 37 },
+    { code: 'VA', lives: 17 },
+    { code: 'SC', lives: 3 },
+  ],
+  currentPlan: 'UMR Buy-Up',
+  costBasis: 'Costs shown are before renewal.',
+  hero: 'What the modeling shows for B&W Fiberglass — and why the real win comes from finally giving people a choice.',
+  companySpend: {
+    totalAnnual: 892_005,
+    totalMonthly: 74_334,
+    employerAnnual: 614_110,
+    employerMonthly: 51_176,
+  },
+  bars: [
+    {
+      id: 'lowest-gold',
+      label: 'Lowest Gold',
+      annual: 850_046,
+      note: 'Everyone on lowest Gold',
+    },
+    {
+      id: 'current-umr',
+      label: 'Current UMR Buy-Up',
+      annual: 892_005,
+      note: 'Before renewal',
+      emphasis: 'current',
+    },
+    {
+      id: 'lowest-bronze',
+      label: 'Lowest Bronze',
+      annual: 640_986,
+      note: 'Everyone on lowest-cost Bronze',
+    },
+    {
+      id: 'sedera-silver',
+      label: 'Sedera + Silver',
+      annual: 510_746,
+      note: '50/50 split (modeled)',
+      emphasis: 'modeled',
+    },
+    {
+      id: 'full-sedera',
+      label: 'Full Sedera',
+      annual: 237_385,
+      note: 'Everyone on Sedera 2500 IUA',
+      emphasis: 'floor',
+    },
+  ],
+  modeledNote:
+    'The 50/50 split is a modeled middle — about a $381k cut versus current — not a guarantee. More people on Sedera moves the employer number toward $237k.',
+  foundation: {
+    headline: 'Foundation for every enrolled employee',
+    items: [
+      'Virtual care and an Rx card',
+      'Direct Primary Care',
+    ],
+  },
+  selfSelect: {
+    headline: 'Then people self-select the tool that fits their risk',
+    healthyPath: {
+      title: 'No major pre-existing condition',
+      body: 'Sedera. This is not insurance.',
+    },
+    needsPath: {
+      title: 'Significant or ongoing needs',
+      body: 'An individual ACA plan, reimbursed through an ICHRA defined contribution.',
+    },
+  },
+  hardLines: [
+    'ICHRA dollars do not buy Sedera.',
+    'After a waiver, Sedera is post-tax payroll, voluntary, discretionary sharing.',
+    'Medical cost sharing is not insurance.',
+    'One enrollment.',
+  ],
+  employerContext: {
+    currentEmployerAnnual: 614_110,
+    minAffordableAnnual: 478_277,
+    maxExposureAnnual: 921_821,
+    adminSetup: 1_500,
+    adminRenewal: 1_500,
+    pepm: 70,
+    pepmMonthlyAtCensus: 3_990,
+    adminNote:
+      'Administration is $1,500 setup, $1,500 renewal, and $70 PEPM ($3,990/month at 57 lives). Admin is not baked into the Sedera bars.',
+  },
+  close: {
+    nextStep:
+      'The next step is the 10/1/26 renewal quote and claims. That is what turns this model into a decision.',
+    ask: 'A working session with leadership.',
+  },
+  footer:
+    'Confidential working draft. Confirm with counsel/TPA. Richard Walton, CEBS · rwalton@sedera.com · (806) 679-0816',
+}
